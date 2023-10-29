@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            position: relative;
+        }
+        header {
+            margin: 10px;
+            padding: 10px;
+        }
+        .formfield {
+            display: inline-block;
+            width: 50vh;
+            text-align: left;
+            background-color: #93ffd9;
+            color: black;
+            padding: 2%;
+            border-radius: 5%;
+            border: none;
+        }
+        .feedback {
+            display: inline-block;
+            background-color: rgb(255, 230, 103);
+            width: 50%;
+            font-size: 24px;
+            text-align: left;
+            padding: 2%;
+            border-radius: 5px;
+        }
+        .form__section {
+            margin: 10px 0;
+        }
+        .form__section label{
+            display: block;
+            font-weight: bold;
+            color: #026194;
+        }
+        .form__section input,.form__section textarea{
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            background-color: #feecb7;
+            
+        }
+        .form__submit-btn {
+            display: block;
+            /* default state of button is 50% opaque */
+            background-color:rgba(255, 70, 50, 0.5); 
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            color: #023b70;
+            font-weight: bold;
+        }
+        .form__submit-btn:hover {
+            background-color: rgba(255, 70, 50);
+            outline: 2px solid rgba(255, 70, 50);
+            color: white;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS Form</h1>
+    </header>
+    <Main>
+        <fieldset class="formfield">
+            <legend class="feedback">Contact Us</legend>
+            <form class="form" action="#" method="post">
+                <div class="form__section">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <div class="form__section">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <div class="form__section">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" rows="6"></textarea>
+                </div>
+                <div class="form__section">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <!-- Opacity is applied to the button below in styles -->
+                <button type="submit" class="form__submit-btn">Submit</button>
+            </form>
+        </fieldset>
+    </Main>
+</body>
+</html>
+
+
+<!-- 
+    Develop an HTML form with various input elements. Use CSS to style the form, including setting background colors for input fields. Create a custom color palette for the form elements, and demonstrate how to apply opacity to one of the form sections.
+    
+ -->
+        

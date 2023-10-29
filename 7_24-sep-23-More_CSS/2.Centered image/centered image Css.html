@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        .main{
+            width: 100%;
+            text-align: center;
+
+        }
+        .card{
+            display: inline-block;
+            width:400px;
+            height: 300px;
+            border: 1px solid #ccc;
+            background-color: rgb(255, 221, 0);
+            border-radius: 20px;
+            padding: 10px;
+            text-align: left;
+        }
+        .card__image img{
+            width: 100%;
+            border-radius: 20px;
+        }
+        .card__text{
+            margin:0 0 0 5px; 
+            word-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="card">
+            <div class="card__image">
+                <img src="card.webp" alt="fullstack web development">
+            </div>
+            <div class="card__text">
+                <p><b>Course Name: </b>PW Skills Full Stack Web Development</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

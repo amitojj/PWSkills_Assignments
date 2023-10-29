@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black !important;
+            padding: 1rem;
+            position:relative;
+            text-shadow: 1px 1px 1em rgb(60, 150, 0);
+            overflow: auto;
+            
+        }
+        .imgbehind{
+            position: absolute;
+            z-index: -1;
+            width: 200px;
+            height:140px
+            
+            
+        }
+        .imgfront{
+            position: absolute;
+            z-index: 1;
+            width: 200px;
+            height:140px
+        }
+    </style>
+</head>
+<body>
+    <h2>Z-Index</h2>
+    <p>Z-Index is the order of an element when elements are stacked on top of each other. It can be a positive or negative number. Higher Z-Index means that element will be placed in front of the elements that have a lower Z-Index. Default Z-Index of every element is 0. It  can be explained using following examples.</p>
+    <h2>The Image below has a Z-Index of -1 so it will be placed behind the text:</h2>
+    <div class="container">
+        <div>
+            <img class="imgbehind" src="earth.jpg" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at, voluptates eaque aspernatur dignissimos inventore nisi ducimus modi similique non dolores labore doloremque sapiente id illum rerum delectus quo magni ut nihil aliquam natus aperiam animi! Iure consequatur mollitia quibusdam dolores corporis in similique pariatur cum et suscipit, placeat assumenda quidem harum unde ab hic tenetur architecto facilis temporibus aspernatur a quae. Voluptate aliquid expedita suscipit sequi quae earum sit labore dolor dolorem eveniet nobis officia facere qui eos iste harum, temporibus odio! Id voluptates perferendis dicta blanditiis inventore, animi itaque aliquid enim corporis doloremque harum ipsum odio fugiat iste a, labore ullam totam impedit velit eaque minima, quidem rerum tenetur expedita? Commodi illum quae quasi ipsa! Placeat dolorem beatae reprehenderit odio nobis tenetur et saepe voluptate modi distinctio adipisci cumque eum tempora ab illo, nostrum, libero at, error dignissimos maiores qui nemo? Accusamus, laudantium omnis sit et quibusdam tempora quaerat, consectetur iure facere veniam, impedit quod! Omnis adipisci corrupti cupiditate eos eum, nostrum dolor exercitationem deserunt numquam vero aliquam neque saepe sunt excepturi perspiciatis! Ratione illo nobis adipisci saepe omnis molestias quas dignissimos fuga. Asperiores reprehenderit consequatur iusto et, sed dolorem dolorum accusantium quas, recusandae iure laboriosam, tempore necessitatibus.</p>
+        
+        
+    </div>
+    <h2>The Image below has a Z-Index of 1 so it will be placed behind the text:</h2>
+    <div class="container">
+        <div>
+            <img  class="imgfront" src="earth.jpg" alt="">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at, voluptates eaque aspernatur dignissimos inventore nisi ducimus modi similique non dolores labore doloremque sapiente id illum rerum delectus quo magni ut nihil aliquam natus aperiam animi! Iure consequatur mollitia quibusdam dolores corporis in similique pariatur cum et suscipit, placeat assumenda quidem harum unde ab hic tenetur architecto facilis temporibus aspernatur a quae. Voluptate aliquid expedita suscipit sequi quae earum sit labore dolor dolorem eveniet nobis officia facere qui eos iste harum, temporibus odio! Id voluptates perferendis dicta blanditiis inventore, animi itaque aliquid enim corporis doloremque harum ipsum odio fugiat iste a, labore ullam totam impedit velit eaque minima, quidem rerum tenetur expedita? Commodi illum quae quasi ipsa! Placeat dolorem beatae reprehenderit odio nobis tenetur et saepe voluptate modi distinctio adipisci cumque eum tempora ab illo, nostrum, libero at, error dignissimos maiores qui nemo? Accusamus, laudantium omnis sit et quibusdam tempora quaerat, consectetur iure facere veniam, impedit quod! Omnis adipisci corrupti cupiditate eos eum, nostrum dolor exercitationem deserunt numquam vero aliquam neque saepe sunt excepturi perspiciatis! Ratione illo nobis adipisci saepe omnis molestias quas dignissimos fuga. Asperiores reprehenderit consequatur iusto et, sed dolorem dolorum accusantium quas, recusandae iure laboriosam, tempore necessitatibus.</p>
+        
+        
+    </div>
+</body>
+</html>

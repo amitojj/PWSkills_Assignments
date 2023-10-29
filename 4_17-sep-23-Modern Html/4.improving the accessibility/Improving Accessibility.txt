@@ -1,0 +1,5 @@
+Improving Accessibility
+Here are three ways to Improve Accessibility:
+1. Alternative Text for Images: Always provide descriptive alternative text (alt attributes) for images
+2. Proper Form Labels: When creating forms, use <label> elements associated with form fields by using the "for" attribute
+3. Use ARIA : Use ARIA attributes and roles to provide additional information about the purpose and behavior of elements like menus, dialog boxes,various icons etc.

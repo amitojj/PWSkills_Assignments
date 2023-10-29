@@ -1,0 +1,10 @@
+HTML Entities  are a set of special codes used to represent reserved and special characters in HTML documents. Below is a list of some Html Entities
+Symbol	Code
+₹	&#x20B9;
+©	&#169;
+®	&#174;
+€	&#8364;
+¥	&#165;
+£	&#163;
+¢	&#162;
+&	&amp;

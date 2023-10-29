@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- below is how you would add external CSS -->
+    <link rel="stylesheet" href="style.css"> 
+    <title>Simple CSS</title>
+    <!-- below is how you would add internal Css -->
+    <style>
+        /* body element is targetted with both external and internal css  but only internal css will be applied */
+        body {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            font-size: 20px;
+        }
+        .container {
+            background-color: #3e3e3e;
+            width: 50vh;
+            display: inline-block;
+            text-align: left;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .question{
+            color: rgba(212, 117, 0, 0.991);
+        }
+        .question h2{
+            color: red;
+        }
+        .answer{
+            color: rgb(0, 255, 179);
+        }
+              /*  STyle below wont be applied as same element is also targetted via inline css , which takes priority over internal css */
+        .answer h2{
+            color: rgb(255, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Simmple CSS Example Page</h1>
+    </header>
+    <main> 
+        <div class="container">
+            <div class="question"><h2>Question:</h2> <p>Create a simple page with some div tags and show different ways to add CSS as well as what happens when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the project where required.</p></div>
+            <div class="answer">
+                <h2 style="color: #00ff00;">Answer:</h2>
+                <p>There are three ways to add CSS. via external file . Via internal style tags in head part of the page and as inline CSS. Out of these three inline css has highest priority. As we can see in this document we targetted <span>  h2 </span> in div class <span> answer </span> via internal css and inline css. but we can see inline css is applied. Internal css has priority over External css . In this document <span> body </span> element is targetted via both external and internal css, But internal css is applied.</p></div>
+        </div>
+    </main>
+</body>
+</html>

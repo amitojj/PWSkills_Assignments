@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS- BEM Naming convention</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+        }
+        .qacard{
+            width:50vh;
+            text-align: left;
+            background-color: #222;
+            display: inline-block;
+            border-radius: 10%;
+            padding:2%
+        }
+        .qacard__question-heading{
+            color: red;
+        }
+        .qacard__answer-heading{
+            color: rgb(0, 255, 0);
+        }
+        .qacard__question-text{
+            color: rgb(255, 143, 69);
+        }
+        .qacard__answer-text{
+            color: rgb(88, 251, 178);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSS- BEM Naming convention</h1>
+    </header>
+    <main>
+        <div class="qacard">
+            <h2 class="qacard__question-heading">Question:</h2>
+            <p class="qacard__question-text">Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and explain how you've named the classes.</p>
+            <h2 class="qacard__answer-heading">Answer:</h2>
+            <p class="qacard__answer-text">BEM which means Block , Element , Modifier is a popular naming convention used to write easy to understand , clean , organised and  maintainable code in html and css code. In the code of this document there is a main block named qacard, then there are elements for Question and Answer, for question and answer there are headings and text modifiers. Syntax for this naming convention is Block__Element-Modifier   </p>
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+Meta tags provide several benefits in web development:
+-Improved SEO: Meta tags, such as meta description and meta keywords, can enhance your site's search engine rankings and click-through rates.
+-Page Summaries: The meta description offers a concise summary of your page's content in search results, helping users understand its relevance.
+-Character Encoding: The meta charset tag ensures proper character encoding.
+-Viewport Control: The viewport meta tag is crucial for mobile optimization, adjusting the viewport to fit various device screens.

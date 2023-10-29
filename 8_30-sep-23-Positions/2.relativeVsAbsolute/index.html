@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color:black;
+            color: white;
+            padding: 1rem;
+            
+        }
+        .container{
+            border: 1px solid #ccc;
+            position: relative;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .container div{
+            height: 100px;
+            width: 100px;
+            background-color: rgba(141, 253, 160, 0.409);
+            border: 1px solid #ccc;
+            display: inline-block;
+            
+            font-weight: bold;
+        }
+        .box3r{
+            position: relative;
+            top: 40px;
+            left:40px
+        }
+        .box3a{
+            position: absolute;
+            top: 40px;
+            left:40px
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Relative Positioning</h2><br><br>
+        <div class="box1r">1</div>
+        <div class="box2r">2</div>
+        <div class="box3r">3</div>
+        <div class="box4r">4</div>
+        <div class="box5r">5</div><br><br><br><br>
+        <p><b>Relative Positioning:</b> When an element is set to "position: relative," it is moved relative to its default position in the document flow by using the top, right, bottom, or left properties. It maintains its space in the layout, and other elements are not affected by its position change, making it suitable for minor adjustments to an element's position without disrupting the layout.</p>
+        
+    </div>
+    <div class="container">
+        <h2>Absolute Positioning</h2><br><br>
+        <div class="box1a">1</div>
+        <div class="box2a">2</div>
+        <div class="box3a">3</div>
+        <div class="box4a">4</div>
+        <div class="box5a">5</div><br><br><br><br>
+        <p><b>Absolute Positioning:</b> With "position: absolute," an element is positioned relative to its closest ancestor with a position property set to anything other than "static." It's taken out of the normal document flow, doesn't affect the layout of other elements, and can be precisely located on the page using top, right, bottom, and left. This type of positioning is commonly used for creating overlays, tooltips, or precisely positioned elements.</p>
+        
+    </div>
+</body>
+</html>

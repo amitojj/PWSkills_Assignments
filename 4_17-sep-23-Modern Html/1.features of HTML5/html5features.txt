@@ -1,0 +1,16 @@
+HTML5 features
+
+1:Semantic Elements:
+HTML5 introduced new semantic elements like "header", "nav", "section", "article", and "footer", making it easier to structure web content, improve accessibility, and assist search engines in understanding page content.
+
+2:Audio and Video Support:
+HTML5 provides native support for embedding audio and video content with the "audio" and "video" elements, reducing the reliance on third-party plugins like Flash.
+
+3:New APIs:
+HTML5 introduced new APIs like canvas,Webstorage,Geo-Location etc.
+
+4:Responsive Web Design:
+With HTML5, it's easier to create responsive web designs that adapt to various screen sizes and devices.
+
+5:Improved Accessibility:
+HTML5 introduced features like the "details" and "summary" elements for better accessibility and the ability to include ARIA roles and attributes to improve the accessibility of web content.
