@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            /* background-color: red; */
+        }
+        a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav{
+            background-color: black;
+        }
+        .navbar li:hover{
+            cursor: pointer;
+            background-color: grey;
+        }
+        .navbar{
+            height:3rem;
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* padding: 1rem; */
+            list-style: none;
+        }
+        .navbar li{
+            width: 100%;
+            text-align: center;
+            border-right: 1px solid #ccc;
+            border-bottom: none;
+            padding: 0.9rem;
+            
+        }
+        @media screen and (max-width: 768px){ 
+            .navbar{
+                flex-direction: column;
+                height: auto;
+                background-color: grey;
+                
+            }
+            .navbar li{
+                border-bottom: 1px solid #ccc;
+                border-right: none;
+            }
+            .navbar li:hover{
+                background-color: #000000;
+                
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

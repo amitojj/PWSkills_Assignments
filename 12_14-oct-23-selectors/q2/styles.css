@@ -1,0 +1,20 @@
+/* Q2. Create a CSS file and link it to the provided HTML file below, use any of the combinator class selectors to
+style the navigation menu as follows -
+-Use the Descendant combinator selector to remove list style type bullet points and text underlining of the Menu list items.*/
+ul li a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+/*Use the child combinator to display the menu list item inline*/
+ul>li{
+    display: inline;
+}
+
+/*Use the Adjacent sibling combinator selector to apply some margin between the menu list items. */
+
+li+li{
+    margin-left: 20px;
+}

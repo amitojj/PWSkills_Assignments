@@ -1,0 +1,5 @@
+1.justify-content: It defines how flex items are distributed along the main axis, allowing you to control their spacing within a flex container. e.g. 'center' for centering items.
+2.align-items: It determines how flex items are aligned along the cross-axis, enabling you to control their vertical alignment within a flex container. e.g.'flex-start' for aligning at the start of the cross-axis.
+3.gap: It specifies the space between flex items and their containers or between neighboring items
+4.flex-direction: It sets the direction in which flex items are placed within the container, such as 'row' for a horizontal layout or 'column' for a vertical layout.
+5.flex-wrap: It controls whether flex items should wrap to a new line if they overflow the container, ensuring proper handling of items in limited space. e.g. 'wrap' to wrap items onto the next line.

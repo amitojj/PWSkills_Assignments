@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100vw; 
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{   
+            perspective: 800px;
+            perspective-origin: 10% 90%;
+        }
+        .cube{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(20deg) rotateY(30deg);
+        }
+        .face{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            background-color: rgba(65, 105, 225, 0.43);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #left{
+            transform: rotateY(-90deg)  translateZ(100px);
+        }
+        #front{
+            transform:translateZ(100px);
+        }
+        #right{
+            transform: rotateY(90deg) translateZ(100px);
+        }
+        #back{
+            transform: rotateY(180deg)  translateZ(100px) ;
+        }
+        #bottom{
+            transform: rotateX(90deg) translateZ(-100px) ;
+        }
+        #top{
+            transform: rotateX(-90deg) translateZ(-100px) ;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="container">
+    <div class="cube">
+        <div class="face" id="front">Front</div>
+        <div class="face" id="back">Back</div>
+        <div class="face" id="right">Right</div>
+        <div class="face" id="left">Left</div>
+        <div class="face" id="top">Top</div>
+        <div class="face" id="bottom">Bottom</div>
+
+    </div>
+   </div>
+</body>
+</html>

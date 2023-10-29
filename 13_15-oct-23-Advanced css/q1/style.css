@@ -1,0 +1,18 @@
+:root{
+    --primaryColor: #00b7ff;
+    --secondaryColor:#6c757d;
+}
+.button{
+    border: none;
+    color: white;
+    margin: 50px;
+    padding: 15px 32px;
+}
+#primaryBtn{
+    background-color: var(--primaryColor);
+
+}
+
+#secondaryBtn{
+    background-color: var(--secondaryColor);
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Practice web development">
+    <meta name="author" content="Amit Malik">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Eczar"> -->
+    <title>Practice </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 1rem;
+            background-color: antiquewhite;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            display: grid;
+            grid-template-areas: 
+            "box3 box4 box5 box6 box7 box8"
+            "box1 box2 . . . .";
+            gap: 1rem;
+            background-color:rgb(255, 255, 255);
+            color: white;
+            padding: 1rem;
+            border:1px solid black;
+        }
+        .box{
+            padding:2rem 1rem;
+            border-radius: 10%;
+            font-size: 1.3rem;
+        }
+        .box:nth-of-type(2n){
+            background-color: #8b7d7d;
+            color:black
+        }
+        .box:nth-of-type(2n+1){
+            background-color: #232323;
+        }
+        .box1{
+            grid-area: box1;
+        }
+        .box2{
+            grid-area: box2;
+        }
+        .box3{
+            grid-area: box3;
+        }
+        .box4{
+            grid-area: box4;
+        }
+        .box5{
+            grid-area: box5;
+        }
+        .box6{
+            grid-area: box6;
+        }
+        .box7{
+            grid-area: box7;
+        }
+        .box8{
+            grid-area: box8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+    </div>
+    
+    <!-- <script src=""></script> -->
+</body>
+</html>
+

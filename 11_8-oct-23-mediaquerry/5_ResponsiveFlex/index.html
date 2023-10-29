@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            padding: 1rem;
+        }
+        .container {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* background-color: red; */
+            color: white;
+        }
+        .box {
+            height: 100%;
+            padding: 1rem;
+        }
+        .subcontainer {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .box1,
+        .box4 {
+            background-color: grey;
+        }
+        .box2 {
+            background-color: rgb(24, 255, 151);
+        }
+        .box3 {
+            background-color: rgb(255, 174, 0);
+        }
+        .subbox {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            padding: 1rem;
+        }
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .subcontainer {
+                flex-grow: 1;
+                justify-content: start;
+                width: 100%;
+            }
+            .box,
+            .subbox {
+                width: 100%;
+                height: auto;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="subcontainer">
+            <div class="subbox box2">Box2</div>
+            <div class="subbox box3">Box3</div>
+        </div>
+        
+        <div class="box box4">Box4</div>
+    </div>
+</body>
+</html>

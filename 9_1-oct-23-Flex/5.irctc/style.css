@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #333;  
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ccc;
+}
+.main {
+    min-width: 1550px;
+    width: 100%;
+    height: 960px;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    width: 640px;
+    height: 950px;
+    border: 1px solid #000;
+}
+.right img{
+    height: 100%;
+    width: auto;
+}
+.left{
+    width: 900px;
+    height: 950px;
+    padding:3rem 3rem 3rem 6rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.navbar{
+    display: flex;
+    /* border: 1px solid #000; */
+    width: 740px;
+    height:82px;
+    justify-content: space-between;
+}
+.logo{
+    width: 168.306px;
+    height: 81.111px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 321.806px;
+    height: 81.875px;
+    /* border: 1px solid #000; */
+    font-size: 15.208px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+    text-align: center; 
+}
+.links{
+    display: flex;
+    justify-content: end;
+    /* display: inline-flex; */
+    align-items: flex-start;
+    gap: 25.347px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons p{
+    padding: 10.14px 15.4px;
+    border-radius: 5px;
+    border: 1.014px solid rgba(51, 51, 51, 0.2); 
+    color: #333;     
+}
+.buttons p:nth-child(1){
+    background-color: #FB792B;
+}
+.buttons p:nth-child(1) a{
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:440px;
+    height:120px;
+    /* border: 1px solid ; */
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.header h1{
+    color: #333;
+    font-size: 49px;
+    font-weight: 700;
+}
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    font-weight: 500;
+    /* border: 1px solid ; */
+}
+
+.subheader p:nth-child(1){
+    color:#FB792B;
+}
+.subheader p:nth-child(2){
+    color:#01BB0A;
+}
+.subheader p:nth-child(3){
+    color:#213D77;
+}
+.subnutton{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.frame{
+    padding:10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border:1px solid #333;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+}
+.frame img{
+    width: 24px;
+    height: 24px;
+}
+.subnutton div:nth-child(1){
+    background-color: #213D77;
+    color: white;
+}
+.search{
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    color: #333;
+    padding:20px 80px 20px 20px;
+}
+.from, .to,.cal,.class,.seat{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    
+}
+.select{
+    display: flex;
+    align-content: baseline;
+    font-size: 15;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.city,.date,.mode,.classcode{
+    font-size: 25px;
+    font-weight: 700;
+}
+.code,.day,.slot,.classtype{
+    font-size: 15;
+    font-weight: 400;
+    opacity: 0.8;
+}
+.options{
+    display: flex;
+    border: 1px solid #333;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    color: #333;
+    padding:20px 44px 20px 20px;
+}
+.icon{
+    align-self: self-start;
+}
+.searchbutton{
+    padding: 23px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #01BB0A;
+    margin-top: 57px;
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    border-radius: 10px;
+}
+.hw32{
+    width: 32px;
+    height: 32px;
+}
+.hw20{
+    width: 20px;
+    height: 20px;
+}
+.hw48{
+    width: 48px;
+    height: 48px;
+}

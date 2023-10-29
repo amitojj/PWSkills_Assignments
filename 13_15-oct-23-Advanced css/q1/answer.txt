@@ -1,0 +1,1 @@
+The var() function in CSS is used for creating and applying custom CSS variables, also known as CSS custom properties. These custom variables allow you to define reusable,dynamic values that can be used throughout your CSS stylesheets and provide consistency in design.

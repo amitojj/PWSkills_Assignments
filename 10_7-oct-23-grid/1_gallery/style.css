@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 4rem;
+    background-color: antiquewhite;
+}
+.gallery{
+   
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    background-color:burlywood;
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: coral;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+}
+.item1{
+    grid-column: span 2;
+}
+.item3{
+    grid-row: span 2;
+    grid-column: span 1;
+}
+.item5{
+    grid-row: span 2;
+}
