@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl font-semibold;
+    }
+    h2 {
+        @apply text-2xl;
+    }
+}
+
+@layer components {
+    .input-primary {
+        @apply px-3 py-2 mt-2 mb-2 text-gray-700 border border-gray-400 rounded focus:border focus:border-sky-400 focus:outline-none focus:shadow-[0_0_4px_4px] focus:shadow-sky-400;
+    }
+}
