@@ -1,0 +1,3 @@
+DOCTYPE declaration in html page is used to tell the browser that this is a html page and also about the version of html.
+<!DOCTYPE html>
+This declaration above is for html5

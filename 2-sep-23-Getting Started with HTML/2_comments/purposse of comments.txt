@@ -1,0 +1,4 @@
+Ans: 
+The purpose of comments in html is writing code or text that the browser does not render. 
+Comments can be used to explain the code in simple language to anyone reading the code or adding notes or documentation in the code. 
+They can also be used for enabling or disabling parts of the code.

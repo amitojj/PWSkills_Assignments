@@ -1,0 +1,18 @@
+Tag:
+Tag is a piece of code that defines the structure of the content in an html page. Its always enclosed in <> angular brackets . Tags usually come  in pairs <openingtag>content</closingTag>.
+For Example:
+"<h1>Content</h1>"
+
+<h1> is opening tag  </h1> is closing tag here this defines that the content between these opening and closing tags is a heading. 
+Similarly 
+ <p> some content  here </p> 
+ here <p> tag defines that this is a paragraph.
+
+Element:
+Part of the code that has a opening tag , an closing tag and the content in between these two is called an element.
+Here for example is an element :
+<h1>Content</h1>
+
+
+Here is another element 
+<p>Lorem ipsum dolor sit</p>
